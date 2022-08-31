@@ -1,0 +1,26 @@
+<!-- /**
+16. Get radius using prompt and calculate the area of a circle (area = pi x r x r) and circumference of a circle(c = 2 x pi x r) where pi = 3.14.
+ * 
+ */ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cirle</title>
+  </head>
+  <body>
+    <script>
+      let radius = parseFloat(prompt("Enter radius:"));
+      let area = Math.PI * radius * radius;
+      let circum = 2 * Math.PI * radius;
+      document.write(
+        `Area of circle of radius ${radius.toFixed(2)} is ${area.toFixed(
+          2
+        )} and circumference is ${circum.toFixed(2)}`
+      );
+    </script>
+  </body>
+</html>
