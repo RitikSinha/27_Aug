@@ -1,0 +1,18 @@
+export const webTechs = [
+  "Html",
+  "CSS",
+  "JavaScript",
+  "React",
+  "Vue",
+  "Typescript",
+  "Angular",
+  "Deno",
+  "Node js",
+  "Gatsby js",
+  "Next js",
+  "Nuxt js",
+  "express",
+  "Postgress",
+  "mongo db",
+  "Nginx",
+];
