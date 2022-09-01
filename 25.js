@@ -6,4 +6,14 @@
     - remove 'Honey' if you are allergic to honey
     - modify Tea to 'Green Tea'
  */
-const shoppingCart = ["Milk", "Coffee", "Tea", "Honey"];
+let shoppingCart = ["Milk", "Coffee", "Tea", "Honey"];
+shoppingCart.unshift("Meat");
+shoppingCart.push("Sugar");
+const value = "Honey";
+shoppingCart = shoppingCart.filter((item) => item !== value);
+for (let i = 0; i < shoppingCart.length; i++) {
+  if (shoppingCart[i] === "Tea") {
+    shoppingCart[i] = "Green Tea";
+  }
+}
+console.log(shoppingCart);
